@@ -1,4 +1,4 @@
-const ProcessPool = require('../modules/ProcessPool');
+const ProcessPool = require('./ProcessPool');
 
 process.on('uncaughtException', (err) => {
     console.log(err);
