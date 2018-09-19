@@ -9,7 +9,8 @@ Use case for running running parallel legacy cron scripts
 listening on message queues.
 
 Run the test:
-`npm install`'
+`npm install`
+
 `node test_processpool.js`
 
 If you run these commands, it will maintain a process pool
