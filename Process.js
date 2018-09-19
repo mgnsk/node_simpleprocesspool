@@ -32,6 +32,7 @@ module.exports = class Process {
                 }
             }, 1000);
 
+            // is the garbage collector clearing these event listeners?
             this.process.on('error', (err) => {
                 clearInterval(checkInterval);
 
