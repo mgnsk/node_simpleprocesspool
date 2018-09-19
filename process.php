@@ -1,3 +1,3 @@
 <?php
 
-sleep(10);
+sleep(rand(5, 60));

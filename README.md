@@ -8,4 +8,11 @@ keep running but the wait queue is flushed.
 Use case for running running parallel legacy cron scripts
 listening on message queues.
 
-In this test the process is a php script that sleeps for 10 seconds.
+Run the test:
+`npm install`'
+`node test_processpool.js`
+
+If you run these commands, it will maintain a process pool
+of 10 maximum processes. Each process is a php script that
+sleeps for rand(5, 60) seconds and heres a command to monitor
+the test: `watch -n 1 "ps aux | grep process.php"`

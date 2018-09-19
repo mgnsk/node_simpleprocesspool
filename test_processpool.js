@@ -8,7 +8,7 @@ process.on('unhandledRejection', (err) => {
     console.log(err);
 });
 
-let pool = new ProcessPool(2);
+let pool = new ProcessPool(10);
 
 pool.on('error', (err) => {
     console.log(err);
@@ -17,7 +17,7 @@ pool.on('error', (err) => {
 
 let bin = '/usr/bin/php';
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 30; i++) {
     let script = __dirname + '/process.php';
 
     let args = [
