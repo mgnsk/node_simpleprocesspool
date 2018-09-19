@@ -1,0 +1,22 @@
+{
+  "name": "node_simpleprocesspool",
+  "version": "1.0.0",
+  "description": "Simple max concurrency process pool using async queue.",
+  "main": "test_processpool.js",
+  "scripts": {
+    "test": "node test_processpool.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnuskokk/node_simpleprocesspool.git"
+  },
+  "author": "Magnus Kokk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magnuskokk/node_simpleprocesspool/issues"
+  },
+  "homepage": "https://github.com/magnuskokk/node_simpleprocesspool#readme",
+  "dependencies": {
+    "async": "^2.6.1"
+  }
+}
